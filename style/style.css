@@ -1,3 +1,52 @@
-h1{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Banner Style Starts here */
+
+.banner-container{
+    width: 1320px;
+    margin: 0 auto;
+    min-height: 600px;
+    margin-top: 50px;
+    background-image: url("/style/Banner\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(54, 54, 54);
+    background-blend-mode: overlay;
+    border-radius: 15px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.banner-content p{
+    color: rgb(228, 222, 209);
+    font-size: 42px;
+    font-weight: 900;  
+    font-family: "Play", sans-serif;
+}
+.banner-content h1{
+        color: rgb(228, 222, 209);
+    font-size: 72px;
+    margin-top: 0;
+    font-weight: 900;  
+    font-family: "Play", sans-serif;
+}
+
+/* 65% Section start */
+
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    border: 2px solid;
+    margin: 0 auto;
+    margin-top: 90px;
 }
