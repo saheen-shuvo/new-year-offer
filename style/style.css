@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 *{
     margin: 0;
@@ -28,13 +28,13 @@
     height: 600px;
 }
 .banner-content p{
-    color: rgb(228, 222, 209);
+    color: rgb(255, 255, 255);
     font-size: 42px;
     font-weight: 900;  
     font-family: "Play", sans-serif;
 }
 .banner-content h1{
-        color: rgb(228, 222, 209);
+        color: rgb(255, 255, 255);
     font-size: 72px;
     margin-top: 0;
     font-weight: 900;  
@@ -46,7 +46,34 @@
 .second-section-container{
     width: 802.9px;
     height: 806px;
-    border: 2px solid;
+
     margin: 0 auto;
     margin-top: 90px;
+}
+.second-section-content, h1{
+    color: red;
+    font-family: "Outfit", sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+.second-section-content, p{
+    color: red;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+}
+.second-section-content, h3{
+    color: rgb(0, 0, 0);
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+}
+.new-year-pic{
+    margin-top: 50px;
 }
