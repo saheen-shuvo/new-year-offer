@@ -130,3 +130,29 @@
     margin-left: 160px;
     margin-top: 80px;
 }
+
+/* <!-- Event Details Style starts here --> */
+
+.event-details-container{
+    width: 1320px;
+    margin: 0 auto;
+    min-height: 600px;
+    margin-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(252, 231, 231);
+    background-blend-mode: overlay;
+    border-radius: 15px;
+}
+#event-time{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    margin-top: 90px;
+    padding-top: 230px;
+    font-weight: 600;  
+    font-family: "Outfit", sans-serif;
+}
+.red{
+    color: red;
+}
