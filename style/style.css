@@ -144,15 +144,83 @@
     background-color: rgb(252, 231, 231);
     background-blend-mode: overlay;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #event-time{
     color: rgb(0, 0, 0);
     font-size: 32px;
-    margin-top: 90px;
-    padding-top: 230px;
     font-weight: 600;  
     font-family: "Outfit", sans-serif;
 }
 .red{
     color: red;
+}
+
+/* <!-- Best offer section starts here --> */
+
+.best-offer-container{
+    max-width: 1320px;
+    margin: 0 auto;
+    max-height: 600px;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: flex;
+}
+.offer-left-content{
+    width: 33.3%;
+    height: 600px;
+}
+.offer-middle-content{
+    width: 33.3%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.offer-right-content{
+    width: 33.3%;
+    height: 600px;
+}
+.offer-left-content, h4{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+    font-weight: 500;  
+    margin-top: 100px;
+    font-family: "Outfit", sans-serif;
+}
+.offer-left-content, h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    font-weight: 700;  
+    font-family: "Outfit", sans-serif;
+}
+.offer-left-content, p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 300;  
+    font-family: "Outfit", sans-serif;
+}
+.happy{
+    /* padding-left: 33px; */
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 25px;
+}
+#lil{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 72px;
+    font-weight: 600;  
+    font-family: "Outfit", sans-serif;
+    margin-top: 60px;
+}
+.img-right{
+    width: 200px;
+    margin-top: 140px;
+    margin-left: 115px;
 }
