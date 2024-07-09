@@ -224,3 +224,44 @@
     margin-top: 140px;
     margin-left: 115px;
 }
+
+/* Holiday Section Starts here */
+
+.holiday-section-container{
+    width: 1320px;
+    margin: 0 auto;
+    max-height: 520px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+.weekend-content{
+    text-align: center;
+}
+#what{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 500;  
+    font-family: "Outfit", sans-serif;
+    margin-top: 30px;
+}
+#week{
+    color: rgb(255, 0, 0);
+    font-size: 82px;
+    font-weight: 800;  
+    font-family: "Outfit", sans-serif;
+    margin-top: 10px;
+}
+#fifty{
+    color: rgb(255, 0, 0);
+    font-size: 150px;
+    font-weight: 800;  
+    font-family: "Outfit", sans-serif;
+    margin-top: 10px;
+}
+#risk{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 400;  
+    font-family: "Outfit", sans-serif;
+    margin-top: 10px;
+}
