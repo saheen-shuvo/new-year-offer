@@ -258,10 +258,26 @@
     font-family: "Outfit", sans-serif;
     margin-top: 10px;
 }
-#risk{
+.risk{
     color: rgb(0, 0, 0);
-    font-size: 30px;
-    font-weight: 400;  
+    font-size: 20px;
+    font-weight: 200;  
     font-family: "Outfit", sans-serif;
     margin-top: 10px;
+}
+
+/* Trending items starts */
+.trending-item-text-container{
+    padding-top: 50px;
+}
+.trending-item-section{
+    background-color: rgb(252, 231, 231);
+    margin-top: 100px;
+}
+.trending-img-container{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
 }
